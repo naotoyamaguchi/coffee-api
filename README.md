@@ -1,57 +1,57 @@
 # coffee-api
 
-GET /coffee
+#GET /coffee
 > Lists all coffee
 
-GET /coffee/:id
+#GET /coffee/:id
 > Get a coffee by it's ID
 
-GET /coffee/:name
+#GET /coffee/:name
 > Get a coffee by it's name
 
-GET /coffee/:location
+#GET /coffee/:location
 > Get all coffees by location
 
-GET /coffee/caffieneAbove/:num
+#GET /coffee/caffieneAbove/:num
 > Get all coffees with caffiene greater than :num
 
-GET /coffee/caffieneBelow/:num
+#GET /coffee/caffieneBelow/:num
 > Get all coffees with caffiene less than :num
 
-POST /coffee
+#POST /coffee
 > Post coffee to warehouse/database
 
-PUT /coffee
+#PUT /coffee
 > Edit coffee by :id
 
-DELETE /coffee/:id
+#DELETE /coffee/:id
 > Delete coffee by :id
 
 
 
-GET /order
+#GET /order
 > List all orders
 
-GET /order/:id
+#GET /order/:id
 > List order by :id
 
-GET /order/:coffee
+#GET /order/:coffee
 > List all orders that have the attribute itemsBought populated with :coffee
 
-POST /order
+#POST /order
 > Post order to database
 
-PUT /order/:id
+#PUT /order/:id
 > Edit order by :id
 
-PUT /order/:id/pending
+#PUT /order/:id/pending
 > Edit order with :id's status to pending
 
-PUT /order/:id/shipped
+#PUT /order/:id/shipped
 > Edit order with :id's status to shipped
 
-PUT /order/:id/voided
+#PUT /order/:id/voided
 > Edit order with :id's status to voided
 
-GET /order/proccessed
+#GET /order/proccessed
 > List all orders with a status columm that is not null (!null)
